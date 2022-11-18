@@ -7,10 +7,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NguyenTrongDuy_2201130001.QLNguoiDung;
+using PhucHien_MinhDuc.QLNguoiDung;
 using PresentationLayer;
 
-namespace NguyenTrongDuy_2201130001.QLNguoiDung
+namespace PhucHien_MinhDuc.QLNguoiDung
 {
     public partial class Frm_PhucHoiDuLieu : Form
     {

@@ -7,9 +7,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NguyenTrongDuy_2201130001.QLNguoiDung;
+using PhucHien_MinhDuc.QLNguoiDung;
 
-namespace NguyenTrongDuy_2201130001
+namespace PhucHien_MinhDuc
 {
     public partial class Frm_Main : Form
     {
@@ -175,7 +175,7 @@ namespace NguyenTrongDuy_2201130001
 
         private void HT_DangNhap_Click(object sender, EventArgs e)
         {
-            Frm_DangNhap FrmDNhap = new Frm_DangNhap();
+            frmDangnhap FrmDNhap = new frmDangnhap();
             FrmDNhap.ShowDialog();
             Lbl_HoTen.ForeColor=Color.PaleGreen;
             Lbl_HoTen.BackColor = Color.Red;

@@ -11,7 +11,7 @@ using DataAccessLayer;
 using PresentationLayer;
 using System.Data.SqlClient;
 
-namespace NguyenTrongDuy_2201130001
+namespace PhucHien_MinhDuc
 {
     public partial class Frm_DatPhong : Form
     {

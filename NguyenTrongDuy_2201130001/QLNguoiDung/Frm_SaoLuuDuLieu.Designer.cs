@@ -1,4 +1,4 @@
-﻿namespace NguyenTrongDuy_2201130001.QLNguoiDung
+﻿namespace PhucHien_MinhDuc.QLNguoiDung
 {
     partial class Frm_SaoLuuDuLieu
     {
@@ -61,18 +61,19 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(398, 336);
+            this.groupBox1.Size = new System.Drawing.Size(391, 391);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Text = " ";
             // 
             // label1
             // 
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.label1.Dock = System.Windows.Forms.DockStyle.Top;
             this.label1.Font = new System.Drawing.Font("Times New Roman", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(3, 19);
+            this.label1.Location = new System.Drawing.Point(3, 23);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(392, 36);
+            this.label1.Size = new System.Drawing.Size(385, 36);
             this.label1.TabIndex = 8;
             this.label1.Text = "Backup Restore";
             this.label1.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -83,7 +84,7 @@
             this.groupBox4.Controls.Add(this.label4);
             this.groupBox4.Location = new System.Drawing.Point(8, 70);
             this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(370, 52);
+            this.groupBox4.Size = new System.Drawing.Size(370, 63);
             this.groupBox4.TabIndex = 7;
             this.groupBox4.TabStop = false;
             this.groupBox4.Text = "DataBase";
@@ -91,18 +92,18 @@
             // cbo_database
             // 
             this.cbo_database.FormattingEnabled = true;
-            this.cbo_database.Location = new System.Drawing.Point(116, 19);
+            this.cbo_database.Location = new System.Drawing.Point(166, 24);
             this.cbo_database.Name = "cbo_database";
-            this.cbo_database.Size = new System.Drawing.Size(156, 24);
+            this.cbo_database.Size = new System.Drawing.Size(156, 27);
             this.cbo_database.TabIndex = 0;
             // 
             // label4
             // 
             this.label4.AutoSize = true;
             this.label4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label4.Location = new System.Drawing.Point(6, 19);
+            this.label4.Location = new System.Drawing.Point(6, 24);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(104, 18);
+            this.label4.Size = new System.Drawing.Size(136, 23);
             this.label4.TabIndex = 0;
             this.label4.Text = "Database Name ";
             // 
@@ -112,18 +113,18 @@
             this.groupBox3.Controls.Add(this.txt_restore);
             this.groupBox3.Controls.Add(this.label3);
             this.groupBox3.Controls.Add(this.btn_BrowRestore);
-            this.groupBox3.Location = new System.Drawing.Point(7, 216);
+            this.groupBox3.Location = new System.Drawing.Point(7, 242);
             this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Size = new System.Drawing.Size(371, 82);
+            this.groupBox3.Size = new System.Drawing.Size(371, 94);
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Database Restore";
             // 
             // btn_Restore
             // 
-            this.btn_Restore.Location = new System.Drawing.Point(279, 48);
+            this.btn_Restore.Location = new System.Drawing.Point(279, 59);
             this.btn_Restore.Name = "btn_Restore";
-            this.btn_Restore.Size = new System.Drawing.Size(83, 23);
+            this.btn_Restore.Size = new System.Drawing.Size(83, 29);
             this.btn_Restore.TabIndex = 3;
             this.btn_Restore.Text = "Restore";
             this.btn_Restore.UseVisualStyleBackColor = true;
@@ -131,26 +132,26 @@
             // 
             // txt_restore
             // 
-            this.txt_restore.Location = new System.Drawing.Point(117, 19);
+            this.txt_restore.Location = new System.Drawing.Point(117, 26);
             this.txt_restore.Name = "txt_restore";
-            this.txt_restore.Size = new System.Drawing.Size(156, 23);
+            this.txt_restore.Size = new System.Drawing.Size(156, 27);
             this.txt_restore.TabIndex = 1;
             // 
             // label3
             // 
             this.label3.AutoSize = true;
             this.label3.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label3.Location = new System.Drawing.Point(6, 19);
+            this.label3.Location = new System.Drawing.Point(6, 26);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(77, 18);
+            this.label3.Size = new System.Drawing.Size(98, 23);
             this.label3.TabIndex = 0;
             this.label3.Text = "Đường dẫn ";
             // 
             // btn_BrowRestore
             // 
-            this.btn_BrowRestore.Location = new System.Drawing.Point(279, 18);
+            this.btn_BrowRestore.Location = new System.Drawing.Point(279, 25);
             this.btn_BrowRestore.Name = "btn_BrowRestore";
-            this.btn_BrowRestore.Size = new System.Drawing.Size(83, 23);
+            this.btn_BrowRestore.Size = new System.Drawing.Size(83, 28);
             this.btn_BrowRestore.TabIndex = 2;
             this.btn_BrowRestore.Text = "Browse";
             this.btn_BrowRestore.TextAlign = System.Drawing.ContentAlignment.TopCenter;
@@ -163,18 +164,18 @@
             this.groupBox2.Controls.Add(this.txt_backup);
             this.groupBox2.Controls.Add(this.label2);
             this.groupBox2.Controls.Add(this.btn_Backup);
-            this.groupBox2.Location = new System.Drawing.Point(7, 128);
+            this.groupBox2.Location = new System.Drawing.Point(7, 139);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(371, 82);
+            this.groupBox2.Size = new System.Drawing.Size(371, 101);
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Database Backup";
             // 
             // btn_browBackup
             // 
-            this.btn_browBackup.Location = new System.Drawing.Point(279, 19);
+            this.btn_browBackup.Location = new System.Drawing.Point(279, 23);
             this.btn_browBackup.Name = "btn_browBackup";
-            this.btn_browBackup.Size = new System.Drawing.Size(83, 23);
+            this.btn_browBackup.Size = new System.Drawing.Size(83, 29);
             this.btn_browBackup.TabIndex = 4;
             this.btn_browBackup.Text = "Browse";
             this.btn_browBackup.UseVisualStyleBackColor = true;
@@ -182,26 +183,26 @@
             // 
             // txt_backup
             // 
-            this.txt_backup.Location = new System.Drawing.Point(117, 19);
+            this.txt_backup.Location = new System.Drawing.Point(117, 23);
             this.txt_backup.Name = "txt_backup";
-            this.txt_backup.Size = new System.Drawing.Size(156, 23);
+            this.txt_backup.Size = new System.Drawing.Size(156, 27);
             this.txt_backup.TabIndex = 1;
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.label2.Location = new System.Drawing.Point(6, 19);
+            this.label2.Location = new System.Drawing.Point(6, 23);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(77, 18);
+            this.label2.Size = new System.Drawing.Size(98, 23);
             this.label2.TabIndex = 0;
             this.label2.Text = "Đường dẫn ";
             // 
             // btn_Backup
             // 
-            this.btn_Backup.Location = new System.Drawing.Point(279, 48);
+            this.btn_Backup.Location = new System.Drawing.Point(279, 58);
             this.btn_Backup.Name = "btn_Backup";
-            this.btn_Backup.Size = new System.Drawing.Size(83, 23);
+            this.btn_Backup.Size = new System.Drawing.Size(83, 32);
             this.btn_Backup.TabIndex = 3;
             this.btn_Backup.Text = "Back up";
             this.btn_Backup.UseVisualStyleBackColor = true;
@@ -209,9 +210,9 @@
             // 
             // btn_Close
             // 
-            this.btn_Close.Location = new System.Drawing.Point(286, 304);
+            this.btn_Close.Location = new System.Drawing.Point(286, 342);
             this.btn_Close.Name = "btn_Close";
-            this.btn_Close.Size = new System.Drawing.Size(83, 23);
+            this.btn_Close.Size = new System.Drawing.Size(83, 36);
             this.btn_Close.TabIndex = 4;
             this.btn_Close.Text = "Close";
             this.btn_Close.UseVisualStyleBackColor = true;
@@ -219,9 +220,9 @@
             // 
             // Frm_SaoLuuDuLieu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(398, 336);
+            this.ClientSize = new System.Drawing.Size(391, 391);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;

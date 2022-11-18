@@ -1,4 +1,4 @@
-﻿namespace NguyenTrongDuy_2201130001.QLNguoiDung
+﻿namespace PhucHien_MinhDuc.QLNguoiDung
 {
     partial class Frm_PhucHoiDuLieu
     {

@@ -1,4 +1,4 @@
-﻿namespace NguyenTrongDuy_2201130001
+﻿namespace PhucHien_MinhDuc
 {
     partial class Frm_PhongHat
     {

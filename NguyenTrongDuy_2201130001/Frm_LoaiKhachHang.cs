@@ -11,7 +11,7 @@ using System.Windows.Forms;
 using DataAccessLayer;
 using PresentationLayer;
 
-namespace NguyenTrongDuy_2201130001
+namespace PhucHien_MinhDuc
 {
     public partial class Frm_LoaiKhachHang : Form
     {
