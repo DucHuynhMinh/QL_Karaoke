@@ -1,4 +1,4 @@
-﻿namespace NguyenTrongDuy_2201130001
+﻿namespace PhucHien_MinhDuc
 {
     partial class Frm_QuanLyThueTraPhong
     {
@@ -809,7 +809,7 @@
             // 
             // xoaToolStripMenuItem
             // 
-            this.xoaToolStripMenuItem.Image = global::NguyenTrongDuy_2201130001.Properties.Resources.delete;
+            this.xoaToolStripMenuItem.Image = global::PhucHien_MinhDuc.Properties.Resources.delete;
             this.xoaToolStripMenuItem.Name = "xoaToolStripMenuItem";
             this.xoaToolStripMenuItem.Size = new System.Drawing.Size(94, 22);
             this.xoaToolStripMenuItem.Text = "&Xóa";

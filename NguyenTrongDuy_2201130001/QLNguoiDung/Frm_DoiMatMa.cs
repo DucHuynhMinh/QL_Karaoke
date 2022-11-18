@@ -10,7 +10,7 @@ using System.Windows.Forms;
 using DataAccessLayer;
 using PresentationLayer;
 
-namespace NguyenTrongDuy_2201130001.QLNguoiDung
+namespace PhucHien_MinhDuc.QLNguoiDung
 {
     public partial class Frm_DoiMatMa : Form
     {

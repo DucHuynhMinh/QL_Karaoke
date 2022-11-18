@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace NguyenTrongDuy_2201130001
+namespace PhucHien_MinhDuc
 {
     public partial class Frm_CTDichVu : Form
     {

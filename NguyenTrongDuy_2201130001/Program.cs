@@ -3,11 +3,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-using NguyenTrongDuy_2201130001.QLNguoiDung;
+using PhucHien_MinhDuc.QLNguoiDung;
 
 
 
-namespace NguyenTrongDuy_2201130001
+namespace PhucHien_MinhDuc
 {
     static class Program
     {

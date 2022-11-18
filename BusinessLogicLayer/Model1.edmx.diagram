@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="a768bfc2664d42679cf1c682be177fbc" Name="Diagram1">
+        <EntityTypeShape EntityType="Model.CTDichVu" Width="1.5" PointX="5.25" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.CTThietBi" Width="1.5" PointX="5.25" PointY="6.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.DichVu" Width="1.5" PointX="3" PointY="13.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.HoaDon" Width="1.5" PointX="5.25" PointY="12.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KhachHang" Width="1.5" PointX="6" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.KhuyenMai" Width="1.5" PointX="0.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LoaiDichVu" Width="1.5" PointX="0.75" PointY="13.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LoaiKhachHang" Width="1.5" PointX="3.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LoaiPhong" Width="1.5" PointX="0.75" PointY="9.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.LoaiThietBi" Width="1.5" PointX="0.75" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhanPhong" Width="1.5" PointX="5.25" PointY="16.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.NhanVien" Width="1.5" PointX="7.75" PointY="5.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PhieuDatPhong" Width="1.5" PointX="8.25" PointY="9" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.PhongHat" Width="1.5" PointX="3" PointY="8.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.sysdiagrams" Width="1.5" PointX="8.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ThietBi" Width="1.5" PointX="3" PointY="5.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="Model.ThongBao" Width="1.5" PointX="9.75" PointY="4.375" IsExpanded="true" />
+        <AssociationConnector Association="Model.FRK_CTDV_DV" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_CTDV_PH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_CTThietBi_PH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_CTThietBi_TB" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_DichVu_LoaiDV" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_HD_PH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_KH_LoaiKH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_PDP_KH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_PH_LP" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_ThietBi_LoaiTB" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_NP_PH" ManuallyRouted="false" />
+        <AssociationConnector Association="Model.FRK_PDP_PH" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

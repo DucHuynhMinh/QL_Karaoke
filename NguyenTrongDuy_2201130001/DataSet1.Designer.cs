@@ -10,7 +10,7 @@
 
 #pragma warning disable 1591
 
-namespace NguyenTrongDuy_2201130001 {
+namespace PhucHien_MinhDuc {
     
     
     /// <summary>
@@ -848,7 +848,7 @@ namespace NguyenTrongDuy_2201130001 {
         }
     }
 }
-namespace NguyenTrongDuy_2201130001.DataSet1TableAdapters {
+namespace PhucHien_MinhDuc.DataSet1TableAdapters {
     
     
     /// <summary>
@@ -986,7 +986,7 @@ namespace NguyenTrongDuy_2201130001.DataSet1TableAdapters {
         [global::System.CodeDom.Compiler.GeneratedCodeAttribute("System.Data.Design.TypedDataSetGenerator", "4.0.0.0")]
         private void InitConnection() {
             this._connection = new global::System.Data.SqlClient.SqlConnection();
-            this._connection.ConnectionString = global::NguyenTrongDuy_2201130001.Properties.Settings.Default.D__UNIVERSITY_DOANKHOALUANTOTNGHIEP_PHANMEM_SLT_QL_KARAOKE_NGUYENTRONGDUY_2201130001_BIN_DEBUG_QLQUANKARAOKE_DATA_MDFConnectionString;
+            this._connection.ConnectionString = global::PhucHien_MinhDuc.Properties.Settings.Default.D__UNIVERSITY_DOANKHOALUANTOTNGHIEP_PHANMEM_SLT_QL_KARAOKE_NGUYENTRONGDUY_2201130001_BIN_DEBUG_QLQUANKARAOKE_DATA_MDFConnectionString;
         }
         
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]

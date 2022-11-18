@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.32929.386
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NguyenTrongDuy_2201130001", "NguyenTrongDuy_2201130001\NguyenTrongDuy_2201130001.csproj", "{E46FF12D-B1FD-416A-A529-A7BB5A79C55D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PhucHien_MinhDuc", "NguyenTrongDuy_2201130001\PhucHien_MinhDuc.csproj", "{E46FF12D-B1FD-416A-A529-A7BB5A79C55D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PresentationLayer", "PresentationLayer\PresentationLayer.csproj", "{2DFCD886-F686-49DE-8A69-017D3D07D41E}"
 EndProject

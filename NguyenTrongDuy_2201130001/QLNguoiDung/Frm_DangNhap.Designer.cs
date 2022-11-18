@@ -1,4 +1,4 @@
-﻿namespace NguyenTrongDuy_2201130001.QLNguoiDung
+﻿namespace PhucHien_MinhDuc.QLNguoiDung
 {
     partial class Frm_DangNhap
     {
@@ -52,7 +52,7 @@
             this.groupBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.groupBox1.Location = new System.Drawing.Point(0, 0);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(376, 134);
+            this.groupBox1.Size = new System.Drawing.Size(389, 139);
             this.groupBox1.TabIndex = 0;
             this.groupBox1.TabStop = false;
             // 
@@ -98,7 +98,7 @@
             // 
             // pictureBox1
             // 
-            this.pictureBox1.Image = global::NguyenTrongDuy_2201130001.Properties.Resources.loginimage;
+            this.pictureBox1.Image = global::PhucHien_MinhDuc.Properties.Resources.loginimage;
             this.pictureBox1.Location = new System.Drawing.Point(13, 13);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(84, 106);
@@ -131,7 +131,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 19F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.RosyBrown;
-            this.ClientSize = new System.Drawing.Size(376, 134);
+            this.ClientSize = new System.Drawing.Size(389, 139);
             this.Controls.Add(this.groupBox1);
             this.Font = new System.Drawing.Font("Tahoma", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
